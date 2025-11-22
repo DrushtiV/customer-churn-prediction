@@ -7,15 +7,25 @@ This repository contains the analysis, modeling code, and results for the Telco 
 
 ## Repo structure
 ├── notebooks/
-│ └── Customer_Churn_Colab.ipynb
+
+|   └── Customer_Churn_Colab.ipynb
+
 ├── data/
+
 │ └── sample_telco.csv (small sample or instructions)
+
 ├── models/
+
 │ └── churn_xgb_model.pkl (optional)
+
 ├── reports/
+
 │ └── Churn_Project_Report.pdf
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
 ## Dataset
