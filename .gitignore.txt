@@ -1,0 +1,24 @@
+# Byte-compiled / caches
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Env / virtualenv
+env/
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Models and large files (keep out of git)
+*.h5
+*.pkl
+*.joblib
+*.sav
+
+# VSCode
+.vscode/
