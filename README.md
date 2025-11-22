@@ -43,3 +43,27 @@ pip install -r requirements.txt
 
 2. Open the notebook:
 run the notebook in Google Colab.
+
+## Key steps performed
+* Data cleaning and preprocessing (handle TotalCharges, encoding categoricals)
+* Exploratory Data Analysis (EDA) and visualization
+* Feature engineering (tenure groups, service count)
+* Model training and comparison: Logistic Regression, Random Forest, XGBoost
+* Model evaluation using Accuracy, Precision, Recall, F1, ROC-AUC
+* Recommendations for business actions and next steps
+
+## Results (summary)
+- Best model: XGBoost (ROC-AUC ~0.90+, high recall)
+- Business insight: Month-to-month customers and electronic check payers are more likely to churn.
+
+## Notes
++ Large raw dataset is not included. Download from Kaggle and place in data/.
++ For interpretability, consider running SHAP analysis (not included).
+
+## License
+-This project is released under the MIT License. See LICENSE for details.
+
+## Contact
+Drushti Vagal — drushtivagal22@gmail.com
+
+Project Colab: https://colab.research.google.com/drive/1e7-kB9kc0cag2XJUJ8ghCmg2UVY-oMHX?usp=sharing
